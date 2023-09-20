@@ -1,0 +1,314 @@
+{
+  "resources": [
+    {
+      "name": "developers",
+      "type": "table",
+      "path": "data/developers.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "developers",
+            "type": "integer"
+          },
+          {
+            "name": "iso2_code",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "economy_collaborators",
+      "type": "table",
+      "path": "data/economy_collaborators.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "weight",
+            "type": "integer"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "destination",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "git_pushes",
+      "type": "table",
+      "path": "data/git_pushes.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "git_pushes",
+            "type": "integer"
+          },
+          {
+            "name": "iso2_code",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "languages",
+      "type": "table",
+      "path": "data/languages.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "num_pushers",
+            "type": "integer"
+          },
+          {
+            "name": "language",
+            "type": "string"
+          },
+          {
+            "name": "language_type",
+            "type": "string"
+          },
+          {
+            "name": "iso2_code",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "licenses",
+      "type": "table",
+      "path": "data/licenses.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "num_pushers",
+            "type": "integer"
+          },
+          {
+            "name": "spdx_license",
+            "type": "string"
+          },
+          {
+            "name": "iso2_code",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "organizations",
+      "type": "table",
+      "path": "data/organizations.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "organizations",
+            "type": "integer"
+          },
+          {
+            "name": "iso2_code",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "repositories",
+      "type": "table",
+      "path": "data/repositories.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "repositories",
+            "type": "integer"
+          },
+          {
+            "name": "iso2_code",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "distinct_dataset_counts_by_quarter_by_economy",
+      "type": "table",
+      "path": "data/representativeness_data/distinct_dataset_counts_by_quarter_by_economy.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          },
+          {
+            "name": "iso2_code",
+            "type": "string"
+          },
+          {
+            "name": "count_of_datasets",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "distinct_datasets_count_by_economy",
+      "type": "table",
+      "path": "data/representativeness_data/distinct_datasets_count_by_economy.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          },
+          {
+            "name": "dataset",
+            "type": "string"
+          },
+          {
+            "name": "count_distinct_economies",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "topics",
+      "type": "table",
+      "path": "data/topics.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "num_pushers",
+            "type": "integer"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "iso2_code",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "quarter",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
