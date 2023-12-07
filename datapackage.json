@@ -249,9 +249,9 @@
       }
     },
     {
-      "name": "distinct_datasets_count_by_economy",
+      "name": "distinct_economy_counts_by_quarter_by_dataset",
       "type": "table",
-      "path": "data/representativeness_data/distinct_datasets_count_by_economy.csv",
+      "path": "data/representativeness_data/distinct_economy_counts_by_quarter_by_dataset.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
