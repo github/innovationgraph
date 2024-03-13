@@ -4,8 +4,8 @@ authors:
 - family-names: "YOUR_NAME_HERE"
   given-names: "YOUR_NAME_HERE"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
-  given-names: "Mona"
+- family-names: "bart"
+  given-names: "starr"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "innovationgraph"
 version: 1.0.0
