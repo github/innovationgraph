@@ -1,19 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this software, please cite it as below."
 authors:
-- name: "GitHub"
-contact:
-- affilation: "GitHub"
-  email: policy@github.com
-title: "GitHub Innovation Graph"
-version: 1.0.2
-date-released: 2024-01-18
-license: CC0-1.0
-url: https://github.com/github/innovationgraph
-type: dataset
-repository: "https://github.com/github/innovationgraph"
-keywords: 
-- "open source"
-- "open data"
-- dataset
-- github
+- family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Lisa"
+  given-names: "Mona"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "innovationgraph"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2024-03-13
+url: "https://github.com/crookscastle/innovationgraph"
