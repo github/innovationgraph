@@ -6,9 +6,9 @@
 GitHub Innovation Graph Metrics
 
 ### 2. Dataset version number and date
-Last updated: 2023-09-21
+Last updated: 2024-04-09
 
-Version: 1.0.0
+Version: 1.0.1
 
 ### 3. Dataset owner/manager contact information, including name and email
 The GitHub Policy Team manages the dataset. Inquiries can be made to policy@github.com. Please use a subject line that includes “GitHub Innovation Graph.”
@@ -31,9 +31,9 @@ Additionally, the last known location of the developer is carried forward on a d
 We report on the following metrics:
 
 1. **Git pushes**: the number of times developers in a given economy uploaded code to GitHub. See the [documentation for `git push`](https://git-scm.com/docs/git-push) for a description of the `git push` command. [Changes to files made through GitHub’s online platform](https://docs.github.com/repositories/working-with-files/managing-files/editing-files) automatically result in a push. Note that a single git push may contain multiple commits.
-2. **Repositories**: the number of software projects in a given economy based on the mode location of all repository members with triage and above access. See our [documentation for Repositories](https://docs.github.com/repositories) for more information.
-3. **Developers**: the number of developer accounts located in a given economy based on mode daily location. This count excludes users that are bots or otherwise flagged as “spammy” within internal systems. See our [documentation for personal accounts](https://docs.github.com/get-started/learning-about-github/types-of-github-accounts#personal-accounts) for more information.
-4. **Organizations**: the number of developer groups in a given economy, including companies, academic groups, nonprofits, and informal collectives that organize activity on GitHub. Location is assigned based on the mode location of all organization members. See our [documentation for Organizations](https://docs.github.com/organizations) for more information.
+2. **Repositories**: the number of software projects in a given economy based on the mode location of all repository members with triage and above access. See our [documentation for Repositories](https://docs.github.com/repositories) for more information. Note that this count includes repositories that may no longer be actively developed or maintained.
+3. **Developers**: the number of developer accounts located in a given economy based on mode daily location. This count excludes users that are bots or otherwise flagged as “spammy” within internal systems. See our [documentation for personal accounts](https://docs.github.com/get-started/learning-about-github/types-of-github-accounts#personal-accounts) for more information. Note that this count includes developer accounts that may no longer be active.
+4. **Organizations**: the number of developer groups in a given economy, including companies, academic groups, nonprofits, and informal collectives that organize activity on GitHub. Location is assigned based on the mode location of all organization members. See our [documentation for Organizations](https://docs.github.com/organizations) for more information. Note that this count includes organizations that may no longer be active.
 5. **Programming languages**: the number of unique developers in each economy who made at least one git push to a repository with a given programming language. See our [documentation for repository languages](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages) for more information about how we detect programming languages.
 6. **Licenses**. the number of unique developers in each economy who made at least one git push to a repository with a given license. See our [documentation for Licenses](https://docs.github.com/rest/licenses/licenses) for more information about how we classify repositories by license. Note that [`NOASSERTION`](https://spdx.github.io/spdx-spec/v2.3/package-information/#713-concluded-license-field) in the data or `Other` (displayed) means a license file was found but could not be identified with high confidence, or multiple licenses were present in a repository.
 7. **Topics**: the number of unique developers who made at least one git push to a repository with a given topic. See our [documentation for Topics](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) for more information about how developers assign topics to repositories.
