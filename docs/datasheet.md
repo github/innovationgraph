@@ -6,9 +6,9 @@
 GitHub Innovation Graph Metrics
 
 ### 2. Dataset version number and date
-Last updated: 2024-04-09
+Last updated: 2023-09-21
 
-Version: 1.0.1
+Version: 1.0.0
 
 ### 3. Dataset owner/manager contact information, including name and email
 The GitHub Policy Team manages the dataset. Inquiries can be made to policy@github.com. Please use a subject line that includes “GitHub Innovation Graph.”
