@@ -106,7 +106,7 @@ year,quarter,dataset,count_distinct_economies
 2023,2,developers,228
 2023,2,economy_collaborators,182
 2023,2,git_pushes,176
-2023,2,languages,155
+2023,2,languages,161
 2023,2,licenses,134
 2023,2,organizations,183
 2023,2,repositories,227
@@ -114,7 +114,7 @@ year,quarter,dataset,count_distinct_economies
 2023,3,developers,228
 2023,3,economy_collaborators,171
 2023,3,git_pushes,177
-2023,3,languages,155
+2023,3,languages,160
 2023,3,licenses,133
 2023,3,organizations,184
 2023,3,repositories,228
@@ -122,7 +122,7 @@ year,quarter,dataset,count_distinct_economies
 2023,4,developers,228
 2023,4,economy_collaborators,179
 2023,4,git_pushes,177
-2023,4,languages,157
+2023,4,languages,160
 2023,4,licenses,132
 2023,4,organizations,184
 2023,4,repositories,226
@@ -135,3 +135,19 @@ year,quarter,dataset,count_distinct_economies
 2024,1,organizations,185
 2024,1,repositories,228
 2024,1,topics,116
+2024,2,developers,228
+2024,2,economy_collaborators,176
+2024,2,git_pushes,178
+2024,2,languages,160
+2024,2,licenses,135
+2024,2,organizations,185
+2024,2,repositories,228
+2024,2,topics,111
+2024,3,developers,228
+2024,3,economy_collaborators,175
+2024,3,git_pushes,178
+2024,3,languages,163
+2024,3,licenses,136
+2024,3,organizations,186
+2024,3,repositories,231
+2024,3,topics,115
