@@ -6,8 +6,8 @@ contact:
 - affilation: "GitHub"
   email: policy@github.com
 title: "GitHub Innovation Graph"
-version: 1.0.6
-date-released: 2025-04-21
+version: 1.0.7
+date-released: 2025-08-14
 license: CC0-1.0
 url: https://github.com/github/innovationgraph
 type: dataset
