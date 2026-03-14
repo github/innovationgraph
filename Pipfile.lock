@@ -574,10 +574,12 @@
         },
         "simpleeval": {
             "hashes": [
-                "sha256:22a2701a5006e4188d125d34accf2405c2c37c93f6b346f2484b6422415ae54a",
-                "sha256:4a30f9cc01825fe4c719c785e3762623e350c4840d5e6855c2a8496baaa65fac"
+                "sha256:b6b7933fffe13a345ada9917f8579c72e7b8afcfb7f7759b18fdd068aaa60486",
+                "sha256:c0de42a9f7849b7bc8c51338295341126f103a2a86beceffebafd9388e3cdfce"
             ],
-            "version": "==0.9.13"
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==1.0.5"
         },
         "six": {
             "hashes": [
